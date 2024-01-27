@@ -114,7 +114,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 3. Hacer la conexion del **LED** y el **Resistor** con la **ESP32** como se muestra en la siguente imagen.
 
-![](https://github.com/DanielX834/PRACTICA-N10/blob/main/2.jpg?raw=true)
+![](
 
 ### Instrucciones de preparación del entorno en NodeRed
 
