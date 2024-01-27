@@ -34,11 +34,11 @@ Para poder usar este repositorio necesitas entrar a la plataforma [WOKWI](https:
 
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
-const char* mqttServer = "18.193.219.109";
+const char* mqttServer = "3.65.168.153";
 const int mqttPort = 1883;
 const char* mqttUser = "diegojm";
 const char* mqttPassword = "1234";
-const char* mqttTopic = "CRISLED";
+const char* mqttTopic = "DanielOcampo";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
