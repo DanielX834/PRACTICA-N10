@@ -129,4 +129,17 @@ Para ejecutar este flow, es necesario lo siguiente
    - mqtt out
    - switch
 
- ![](https://github.com/YasminZagal/PRACTICA-10-ENCENDER-LED-NodeRed/blob/main/nodos.png)
+ ![](
+
+ 4. Para la configuracion del mqtt out necesitaremos saber nuestra ip, que se saca de la siguiente manera:
+   cmd --> nslookup broker.hivemq.com --> copiamos los numeros de la parte que dice addresses --> nos dirigimos a nodered --> seleccionamos mqtt out --> damos click en el icono del lapiz --> en la parte de server se pegara la direccion ip que copiamos --> update --> done
+
+-Tambien requeriremos de colocar un nombre en la parte donde dice Topic
+
+![](
+
+5. Configurar el bloque con el puerto ```switch``` con el grupo de **INTERRUPTORES** como se muestra en la imagen.
+
+![](
+
+
