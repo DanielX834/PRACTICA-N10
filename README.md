@@ -110,11 +110,11 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
 2. Instalar la libreria de **PubSubClient** como se muestra en la siguente imagen.
 
-![](
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/1.jpg?raw=true)
 
 3. Hacer la conexion del **LED** y el **Resistor** con la **ESP32** como se muestra en la siguente imagen.
 
-![](
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/2.jpg?raw=true)
 
 ### Instrucciones de preparación del entorno en NodeRed
 
@@ -129,17 +129,42 @@ Para ejecutar este flow, es necesario lo siguiente
    - mqtt out
    - switch
 
- ![](
+ ![](https://github.com/DanielX834/PRACTICA-N10/blob/main/3.jpg?raw=true)
 
  4. Para la configuracion del mqtt out necesitaremos saber nuestra ip, que se saca de la siguiente manera:
    cmd --> nslookup broker.hivemq.com --> copiamos los numeros de la parte que dice addresses --> nos dirigimos a nodered --> seleccionamos mqtt out --> damos click en el icono del lapiz --> en la parte de server se pegara la direccion ip que copiamos --> update --> done
 
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/4.jpg?raw=true)
+
+
 -Tambien requeriremos de colocar un nombre en la parte donde dice Topic
 
-![](
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/5.jpg?raw=true)
+
 
 5. Configurar el bloque con el puerto ```switch``` con el grupo de **INTERRUPTORES** como se muestra en la imagen.
 
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/6.jpg?raw=true)
+
+6. Por ultimo en la pestaña de de *Layout* crearemos otro tabulador llamado **LED**, dentro de el añadiremos un grupo llamado **INTERRUPTORES**.
+
 ![](
+
+### Instrucciónes de operación
+
+1. Iniciar simulador en [WOKWI](https://https://wokwi.com/).
+2. Visualizar los datos en el monitor serial.
+3. Iniciar el simulador en [Node-RED](http://localhost:1880/) dando *click izquierdo* en el botón **Deploy** y despues abrir la interfaz dando *click izquierdo* en el boton de exportar.
+4. Visualizar la interfaz y accionar el ```LED```.
+5. Observar en el simulador que el **LED** haya encendido.
+
+## Resultados
+
+Cuando haya funcionado, verás la luz del **LED** encendida y los valores dentro del monitor serial, a continuación se puede observar una vista previa del resultado del flow 3 y la interaccion con el wokwi 
+
+![](
+
+# Créditos
+Desarrollado por Ing. Daniel Armenta
 
 
