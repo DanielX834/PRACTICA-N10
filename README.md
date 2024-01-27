@@ -148,7 +148,7 @@ Para ejecutar este flow, es necesario lo siguiente
 
 6. Por ultimo en la pestaña de de *Layout* crearemos otro tabulador llamado **LED**, dentro de el añadiremos un grupo llamado **INTERRUPTORES**.
 
-![](
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/7.jpg?raw=true)
 
 ### Instrucciónes de operación
 
@@ -162,7 +162,9 @@ Para ejecutar este flow, es necesario lo siguiente
 
 Cuando haya funcionado, verás la luz del **LED** encendida y los valores dentro del monitor serial, a continuación se puede observar una vista previa del resultado del flow 3 y la interaccion con el wokwi 
 
-![](
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/8.jpg?raw=true)
+
+![](https://github.com/DanielX834/PRACTICA-N10/blob/main/9.jpg?raw=true)
 
 # Créditos
 Desarrollado por Ing. Daniel Armenta
