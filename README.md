@@ -167,6 +167,6 @@ Cuando haya funcionado, verás la luz del **LED** encendida y los valores dentro
 ![](https://github.com/DanielX834/PRACTICA-N10/blob/main/9.jpg?raw=true)
 
 # Créditos
-Desarrollado por Ing. Daniel Armenta
+Desarrollado por Ing. Daniel Armenta O.
 
 
